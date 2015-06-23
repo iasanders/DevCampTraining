@@ -10,11 +10,11 @@
     <RootNamespace>ProviderHostedOAuth</RootNamespace>
     <AssemblyName>ProviderHostedOAuth</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
-    <MinimumOfficeToolsVersion>12.1</MinimumOfficeToolsVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
     <ProjectMode>SharePointApp</ProjectMode>
     <AppFeaturePartId>{1a2b0412-f42d-4d52-af15-5553547e2de6}</AppFeaturePartId>
@@ -22,6 +22,11 @@
     <WorkflowPartId>{9a47d04e-1e32-4d82-b3be-0a3b541ce088}</WorkflowPartId>
     <CspkgPartId>{5215f446-9114-4efe-a009-e53eb8e36e6b}</CspkgPartId>
     <SqlPackagePartId>{a9a73a0a-8acb-4f6d-a4ca-de3498a82cd8}</SqlPackagePartId>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
